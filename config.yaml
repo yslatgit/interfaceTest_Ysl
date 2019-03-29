@@ -1,0 +1,24 @@
+HTTP:
+   scheme : http
+   baseurl_list : crm.mofanghr.com
+   baseurl_login : account.mofanghr.com
+   port: 8080
+   timeout: 3
+EMAIL:
+    mailhost : smtp.qq.com
+    mailuser : 986725816@qq.com
+    mailsender : 986725816@qq.com
+    mailpass : workfkwvmghcbbfd
+    mailport : 465
+    recevier :
+      - "yangsonglin@mofanghr.com"
+#      - "986725816@qq.com"
+    subject : Interface Test Report
+
+DATABASE:
+    host : localhost
+    username : root
+    password : root
+    port : 3306
+    database : test
+

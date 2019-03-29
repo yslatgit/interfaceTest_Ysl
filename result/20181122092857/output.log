@@ -1,0 +1,20 @@
+2018-11-22 09:28:57,692 - root - INFO - **************************************************
+2018-11-22 09:28:57,692 - root - INFO - search_resume测试
+2018-11-22 09:28:57,693 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 09:28:57,693 - root - INFO - 请求的Header为：{'cookie': 'accountToken=yangsonglin@mofanghr.com|A2F2220D9F4B86EB283410E03A6C88D7'}
+2018-11-22 09:28:57,693 - root - INFO - 请求方法为 post
+2018-11-22 09:28:57,791 - root - ERROR - Expecting value: line 3 column 1 (char 2)
+2018-11-22 09:28:57,792 - root - INFO - 断言结果是 False--原因-->cookie错误
+2018-11-22 09:28:57,804 - root - INFO - **************************************************
+2018-11-22 09:28:57,805 - root - INFO - search_resume测试
+2018-11-22 09:28:57,805 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 09:28:57,806 - root - INFO - 请求的Header为：{'cookie': ''}
+2018-11-22 09:28:57,807 - root - INFO - 请求方法为 post
+2018-11-22 09:28:57,862 - root - ERROR - Expecting value: line 3 column 1 (char 2)
+2018-11-22 09:28:57,862 - root - INFO - 断言结果是 False--原因-->没有登录
+2018-11-22 09:28:57,868 - root - INFO - **************************************************
+2018-11-22 09:28:57,868 - root - INFO - search_resume测试
+2018-11-22 09:28:57,869 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 09:28:57,869 - root - INFO - 请求的Header为：{'cookie': 'accountToken=yangsonglin@mofanghr.com|A2F2220D9F4B86EB283410E03A6C88D6'}
+2018-11-22 09:28:57,869 - root - INFO - 请求方法为 post
+2018-11-22 09:28:58,360 - root - INFO - 断言结果是 Pass---->OK

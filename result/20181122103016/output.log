@@ -1,0 +1,78 @@
+2018-11-22 10:30:16,792 - root - INFO - *************************TEST START*************************
+2018-11-22 10:30:16,792 - root - INFO - **************************************************
+2018-11-22 10:30:16,792 - root - INFO - login测试
+2018-11-22 10:30:16,793 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:16,793 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:16,793 - root - INFO - 请求的Params为：{'action': 'login', 'password': '1234', 'account': 'yangsonglin@mofanghr.com'}
+2018-11-22 10:30:16,793 - root - INFO - 请求方法为 get
+2018-11-22 10:30:16,962 - root - INFO - 断言结果是 Pass---->OK
+2018-11-22 10:30:16,962 - root - INFO - **************************************************
+2018-11-22 10:30:16,962 - root - INFO - login测试
+2018-11-22 10:30:16,963 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:16,963 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:16,963 - root - INFO - 请求的Params为：{'action': 'login', 'password': '1235', 'account': 'yangsonglin@mofanghr.com'}
+2018-11-22 10:30:16,963 - root - INFO - 请求方法为 get
+2018-11-22 10:30:16,993 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:16,994 - root - INFO - 断言结果是 False--原因-->密码错误
+2018-11-22 10:30:16,994 - root - INFO - **************************************************
+2018-11-22 10:30:16,994 - root - INFO - login测试
+2018-11-22 10:30:16,995 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:16,995 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:16,995 - root - INFO - 请求的Params为：{'action': 'login', 'password': '1234', 'account': 'yangsongglin@mofanghr.com'}
+2018-11-22 10:30:16,995 - root - INFO - 请求方法为 get
+2018-11-22 10:30:17,034 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:17,034 - root - INFO - 断言结果是 False--原因-->用户名错误
+2018-11-22 10:30:17,035 - root - INFO - **************************************************
+2018-11-22 10:30:17,035 - root - INFO - login测试
+2018-11-22 10:30:17,035 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:17,035 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:17,035 - root - INFO - 请求的Params为：{'action': 'login', 'password': '', 'account': 'yangsonglin@mofanghr.com'}
+2018-11-22 10:30:17,036 - root - INFO - 请求方法为 get
+2018-11-22 10:30:17,075 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:17,076 - root - INFO - 断言结果是 False--原因-->密码为空
+2018-11-22 10:30:17,076 - root - INFO - **************************************************
+2018-11-22 10:30:17,076 - root - INFO - login测试
+2018-11-22 10:30:17,076 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:17,077 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:17,077 - root - INFO - 请求的Params为：{'action': 'login', 'password': '1234', 'account': ''}
+2018-11-22 10:30:17,077 - root - INFO - 请求方法为 get
+2018-11-22 10:30:17,107 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:17,108 - root - INFO - 断言结果是 False--原因-->用户名为空
+2018-11-22 10:30:17,108 - root - INFO - **************************************************
+2018-11-22 10:30:17,109 - root - INFO - login测试
+2018-11-22 10:30:17,109 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:17,109 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036E'}
+2018-11-22 10:30:17,109 - root - INFO - 请求的Params为：{'action': 'login', 'password': '', 'account': ''}
+2018-11-22 10:30:17,110 - root - INFO - 请求方法为 get
+2018-11-22 10:30:17,151 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:17,152 - root - INFO - 断言结果是 False--原因-->用户名密码均为空
+2018-11-22 10:30:17,153 - root - INFO - **************************************************
+2018-11-22 10:30:17,153 - root - INFO - login测试
+2018-11-22 10:30:17,154 - root - INFO - 请求的地址为：http://account.mofanghr.com/login.action
+2018-11-22 10:30:17,154 - root - INFO - 请求的Header为：{'cookie': 'JSESSIONID=9C24F9A635C1E65673A0F8388D13036'}
+2018-11-22 10:30:17,154 - root - INFO - 请求的Params为：{'action': 'login', 'password': '1234', 'account': 'yangsongglin@mofanghr.com'}
+2018-11-22 10:30:17,155 - root - INFO - 请求方法为 get
+2018-11-22 10:30:17,204 - root - ERROR - '魔方微猎综合管理平台' not found in <title>魔方招聘用户登录</title>
+2018-11-22 10:30:17,204 - root - INFO - 断言结果是 False--原因-->cookie错误
+2018-11-22 10:30:17,205 - root - INFO - **************************************************
+2018-11-22 10:30:17,205 - root - INFO - search_resume测试
+2018-11-22 10:30:17,206 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 10:30:17,206 - root - INFO - 请求的Header为：{'cookie': 'accountToken=yangsonglin@mofanghr.com|A2F2220D9F4B86EB283410E03A6C88D6'}
+2018-11-22 10:30:17,206 - root - INFO - 请求方法为 post
+2018-11-22 10:30:18,249 - root - INFO - 断言结果是 Pass---->OK
+2018-11-22 10:30:18,251 - root - INFO - **************************************************
+2018-11-22 10:30:18,252 - root - INFO - search_resume测试
+2018-11-22 10:30:18,253 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 10:30:18,253 - root - INFO - 请求的Header为：{'cookie': 'accountToken=yangsonglin@mofanghr.com|A2F2220D9F4B86EB283410E03A6C88D7'}
+2018-11-22 10:30:18,254 - root - INFO - 请求方法为 post
+2018-11-22 10:30:18,323 - root - ERROR - Expecting value: line 3 column 1 (char 2)
+2018-11-22 10:30:18,323 - root - INFO - 断言结果是 False--原因-->cookie错误
+2018-11-22 10:30:18,324 - root - INFO - **************************************************
+2018-11-22 10:30:18,325 - root - INFO - search_resume测试
+2018-11-22 10:30:18,325 - root - INFO - 请求的地址为：http://crm.mofanghr.com/member/resume/list.json
+2018-11-22 10:30:18,325 - root - INFO - 请求的Header为：{'cookie': ''}
+2018-11-22 10:30:18,326 - root - INFO - 请求方法为 post
+2018-11-22 10:30:18,369 - root - ERROR - Expecting value: line 3 column 1 (char 2)
+2018-11-22 10:30:18,369 - root - INFO - 断言结果是 False--原因-->没有登录
+2018-11-22 10:30:18,371 - root - INFO - *************************TEST END*************************
+2018-11-22 10:30:21,673 - root - INFO - The test report has send to developer by email.

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="resume">
+        <group>member</group>
+        <module>resume</module>
+        <action>list.json</action>
+    </url>
+
+    <url name="myResume">
+        <group>member</group>
+        <module>resume</module>
+        <action>myResume.json</action>
+    </url>
+    <url name="login_crm">
+        <!--<group></group>-->
+        <!--<module></module>-->
+        <action>login.action</action>
+    </url>
+</interface>
