@@ -12,7 +12,7 @@ EMAIL:
     mailport : 465
     recevier :
       - "yangsonglin@mofanghr.com"
-#      - "986725816@qq.com"
+      - "986725816@qq.com"
     subject : Interface Test Report
 
 DATABASE:

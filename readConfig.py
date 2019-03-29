@@ -9,7 +9,7 @@ PATH = lambda p: os.path.abspath(
 
 class ReadConfig:
 
-    def __init__(self,key):
+    def __init__(self,key="EMAIL"):
         self.key = key
         self.configPath = PATH("config.yaml")
         # print(self.configPath)
@@ -22,5 +22,5 @@ class ReadConfig:
 # print(readconfig("EMAIL"))
 if __name__ == '__main__':
     
-    r = ReadConfig("EMAIL")
+    r = ReadConfig()
     print(r.readconfig())
